@@ -426,8 +426,8 @@ importers:
         specifier: 1.15.4
         version: 1.15.4
       lint-staged:
-        specifier: 15.5.2
-        version: 15.5.2
+        specifier: 16.1.0
+        version: 16.1.0
       magic-string:
         specifier: 0.30.17
         version: 0.30.17
@@ -3104,9 +3104,9 @@ packages:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
 
-  commander@13.1.0:
-    resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
-    engines: {node: '>=18'}
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
 
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -4621,9 +4621,9 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
-  lint-staged@15.5.2:
-    resolution: {integrity: sha512-YUSOLq9VeRNAo/CTaVmhGDKG+LBtA8KF1X4K5+ykMSwWST1vDxJRB2kv2COgLb1fvpCo+A/y9A0G0znNVmdx4w==}
-    engines: {node: '>=18.12.0'}
+  lint-staged@16.1.0:
+    resolution: {integrity: sha512-HkpQh69XHxgCjObjejBT3s2ILwNjFx8M3nw+tJ/ssBauDlIpkx2RpqWSi1fBgkXLSSXnbR3iEq1NkVtpvV+FLQ==}
+    engines: {node: '>=20.17'}
     hasBin: true
 
   listr2@8.3.3:
@@ -4984,6 +4984,10 @@ packages:
   mute-stream@1.0.0:
     resolution: {integrity: sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+
+  nano-spawn@1.0.2:
+    resolution: {integrity: sha512-21t+ozMQDAL/UGgQVBbZ/xXvNO10++ZPuTmKRO8k9V3AClVRht49ahtDjfY8l1q6nSHOrE5ASfthzH3ol6R/hg==}
+    engines: {node: '>=20.17'}
 
   nanoid@3.3.11:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
@@ -6597,6 +6601,11 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
+  yaml@2.8.0:
+    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
   yargs-parser@15.0.3:
     resolution: {integrity: sha512-/MVEVjTXy/cGAjdtQf8dW3V9b97bPN7rNn8ETj6BmAQL7ibC7O1Q9SPJbGjgh3SlwoBNXMzj/ZGIj8mBgl12YA==}
 
@@ -6741,7 +6750,7 @@ snapshots:
       '@babel/core': 7.27.1
       '@babel/helper-compilation-targets': 7.27.2
       '@babel/helper-plugin-utils': 7.27.1
-      debug: 4.4.0
+      debug: 4.4.1
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -7349,7 +7358,7 @@ snapshots:
       '@babel/parser': 7.27.2
       '@babel/template': 7.27.2
       '@babel/types': 7.27.1
-      debug: 4.4.0
+      debug: 4.4.1
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -7646,7 +7655,7 @@ snapshots:
   '@eslint/eslintrc@2.1.4':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0
+      debug: 4.4.1
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.3.2
@@ -7720,7 +7729,7 @@ snapshots:
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.4.0
+      debug: 4.4.1
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -8849,7 +8858,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 8.32.1(typescript@5.8.3)
       '@typescript-eslint/utils': 8.32.1(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3)
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.26.0(jiti@2.4.2)
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
@@ -8864,7 +8873,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.32.0
       '@typescript-eslint/visitor-keys': 8.32.0
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -9205,7 +9214,7 @@ snapshots:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
-      debug: 4.4.0
+      debug: 4.4.1
       http-errors: 2.0.0
       iconv-lite: 0.6.3
       on-finished: 2.4.1
@@ -9497,7 +9506,7 @@ snapshots:
 
   commander@10.0.1: {}
 
-  commander@13.1.0: {}
+  commander@14.0.0: {}
 
   commander@2.20.3: {}
 
@@ -10062,7 +10071,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.0
+      debug: 4.4.1
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.2.2
@@ -10218,7 +10227,7 @@ snapshots:
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.2.2
-      debug: 4.4.0
+      debug: 4.4.1
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
@@ -10256,7 +10265,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -10337,7 +10346,7 @@ snapshots:
 
   finalhandler@2.1.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       encodeurl: 2.0.0
       escape-html: 1.0.3
       on-finished: 2.4.1
@@ -10484,7 +10493,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -10709,7 +10718,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -11192,18 +11201,18 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  lint-staged@15.5.2:
+  lint-staged@16.1.0:
     dependencies:
       chalk: 5.4.1
-      commander: 13.1.0
-      debug: 4.4.0
-      execa: 8.0.1
+      commander: 14.0.0
+      debug: 4.4.1
       lilconfig: 3.1.3
       listr2: 8.3.3
       micromatch: 4.0.8
+      nano-spawn: 1.0.2
       pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.7.1
+      yaml: 2.8.0
     transitivePeerDependencies:
       - supports-color
 
@@ -11505,7 +11514,7 @@ snapshots:
   micromark@4.0.2:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
@@ -11625,6 +11634,8 @@ snapshots:
   mute-stream@0.0.8: {}
 
   mute-stream@1.0.0: {}
+
+  nano-spawn@1.0.2: {}
 
   nanoid@3.3.11: {}
 
@@ -11753,7 +11764,7 @@ snapshots:
 
   openapi3-ts@4.4.0:
     dependencies:
-      yaml: 2.7.1
+      yaml: 2.8.0
 
   optionator@0.8.3:
     dependencies:
@@ -12051,7 +12062,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.0
+      debug: 4.4.1
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
       lru-cache: 7.18.3
@@ -12132,7 +12143,7 @@ snapshots:
   puppeteer-extra-plugin@3.2.3(puppeteer-extra@3.3.6(puppeteer-core@22.6.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.6.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))):
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       merge-deep: 3.0.3
     optionalDependencies:
       puppeteer-extra: 3.3.6(puppeteer-core@22.6.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.6.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
@@ -12353,7 +12364,7 @@ snapshots:
       '@babel/parser': 7.27.2
       '@babel/types': 7.27.1
       ast-kit: 1.4.3
-      debug: 4.4.0
+      debug: 4.4.1
       dts-resolver: 1.1.1
       get-tsconfig: 4.10.0
       oxc-transform: 0.67.0
@@ -12413,7 +12424,7 @@ snapshots:
 
   router@2.2.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       depd: 2.0.0
       is-promise: 4.0.0
       parseurl: 1.3.3
@@ -12475,7 +12486,7 @@ snapshots:
 
   send@1.2.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
@@ -12674,7 +12685,7 @@ snapshots:
     dependencies:
       component-emitter: 1.3.1
       cookiejar: 2.1.4
-      debug: 4.4.0
+      debug: 4.4.1
       fast-safe-stringify: 2.1.1
       form-data: 4.0.2
       formidable: 3.5.4
@@ -13099,7 +13110,7 @@ snapshots:
   vite-node@2.1.9(@types/node@22.15.21)(lightningcss@1.29.3):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 1.1.2
       vite: 5.4.19(@types/node@22.15.21)(lightningcss@1.29.3)
@@ -13320,6 +13331,8 @@ snapshots:
       yaml: 2.7.1
 
   yaml@2.7.1: {}
+
+  yaml@2.8.0: {}
 
   yargs-parser@15.0.3:
     dependencies:
