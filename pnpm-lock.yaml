@@ -33,7 +33,7 @@ importers:
         version: 1.14.3(hono@4.7.11)
       '@hono/zod-openapi':
         specifier: 0.19.8
-        version: 0.19.8(hono@4.7.11)(zod@3.24.4)
+        version: 0.19.8(hono@4.7.11)(zod@3.25.47)
       '@notionhq/client':
         specifier: 3.0.1
         version: 3.0.1
@@ -284,8 +284,8 @@ importers:
         specifier: 13.4.0
         version: 13.4.0
       zod:
-        specifier: 3.24.4
-        version: 3.24.4
+        specifier: 3.25.47
+        version: 3.25.47
     devDependencies:
       '@babel/preset-env':
         specifier: 7.27.2
@@ -6638,8 +6638,8 @@ packages:
   zod@3.24.1:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
-  zod@3.24.4:
-    resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
+  zod@3.25.47:
+    resolution: {integrity: sha512-+f8+agSYoT9niC0VUL60IuXnr81FJeJ27Lf5YPrmcxTWmygcpGBeEuAAovDDEjkyQ36KyqNswwbhISZ1Z7yY+A==}
 
 snapshots:
 
@@ -6656,10 +6656,10 @@ snapshots:
       '@csstools/css-tokenizer': 3.0.3
       lru-cache: 10.4.3
 
-  '@asteasolutions/zod-to-openapi@7.3.2(zod@3.24.4)':
+  '@asteasolutions/zod-to-openapi@7.3.2(zod@3.25.47)':
     dependencies:
       openapi3-ts: 4.4.0
-      zod: 3.24.4
+      zod: 3.25.47
 
   '@babel/code-frame@7.0.0':
     dependencies:
@@ -7703,17 +7703,17 @@ snapshots:
     dependencies:
       hono: 4.7.11
 
-  '@hono/zod-openapi@0.19.8(hono@4.7.11)(zod@3.24.4)':
+  '@hono/zod-openapi@0.19.8(hono@4.7.11)(zod@3.25.47)':
     dependencies:
-      '@asteasolutions/zod-to-openapi': 7.3.2(zod@3.24.4)
-      '@hono/zod-validator': 0.7.0(hono@4.7.11)(zod@3.24.4)
+      '@asteasolutions/zod-to-openapi': 7.3.2(zod@3.25.47)
+      '@hono/zod-validator': 0.7.0(hono@4.7.11)(zod@3.25.47)
       hono: 4.7.11
-      zod: 3.24.4
+      zod: 3.25.47
 
-  '@hono/zod-validator@0.7.0(hono@4.7.11)(zod@3.24.4)':
+  '@hono/zod-validator@0.7.0(hono@4.7.11)(zod@3.25.47)':
     dependencies:
       hono: 4.7.11
-      zod: 3.24.4
+      zod: 3.25.47
 
   '@humanfs/core@0.19.1': {}
 
@@ -7851,8 +7851,8 @@ snapshots:
       express-rate-limit: 7.5.0(express@5.1.0)
       pkce-challenge: 5.0.0
       raw-body: 3.0.0
-      zod: 3.24.4
-      zod-to-json-schema: 3.24.5(zod@3.24.4)
+      zod: 3.25.47
+      zod-to-json-schema: 3.24.5(zod@3.25.47)
     transitivePeerDependencies:
       - supports-color
 
@@ -10135,7 +10135,7 @@ snapshots:
       minimatch: 3.1.2
       natural-compare: 1.4.0
       optionator: 0.9.4
-      zod: 3.24.4
+      zod: 3.25.47
     optionalDependencies:
       jiti: 2.4.2
     transitivePeerDependencies:
@@ -13360,12 +13360,12 @@ snapshots:
       tslib: 2.8.1
       undici: 5.29.0
 
-  zod-to-json-schema@3.24.5(zod@3.24.4):
+  zod-to-json-schema@3.24.5(zod@3.25.47):
     dependencies:
-      zod: 3.24.4
+      zod: 3.25.47
 
   zod@3.22.4: {}
 
   zod@3.24.1: {}
 
-  zod@3.24.4: {}
+  zod@3.25.47: {}
